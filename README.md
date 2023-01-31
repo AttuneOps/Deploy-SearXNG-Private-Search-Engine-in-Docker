@@ -56,10 +56,7 @@ In this Blueprint we want to create four Execute Linux Script Steps:
 | ---- | ---- | ---------------- |
 | SearXNG Search Engine Node | Linux/Unix Node | `searxngsearchenginenode` |
 | SearXNG Search Engine Node root User | Linux/Unix Credential | `searxngsearchenginenoderootuser` |
-| SearXNG Search Engine Node User | Linux/Unix Credential | `searxngsearchenginenodeuser` |
 | SearXNG Search Engine Base Directory | Text | `searxngsearchenginebasedirectory` |
-| SearXNG Search Engine Lets Encrypt Set Email | Text | `searxngsearchengineletsencryptsetemail` |
-| SearXNG Search Engine Lets Encrypt Email | Text | `searxngsearchengineletsencryptemail` |
 
 
 

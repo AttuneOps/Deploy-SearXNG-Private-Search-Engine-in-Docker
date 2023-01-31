@@ -1,1 +1,0 @@
-Required to create a Let's Encrypt certificate.
