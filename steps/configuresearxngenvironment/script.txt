@@ -1,0 +1,15 @@
+baseDirectory={searxngSearchEngineBaseDirectory}
+hostname={searxngSearchEngineNode.hostname}
+setEmail={searxngSearchEngineLetsEncryptSetEmail}
+email={searxngSearchEngineLetsEncryptEmail}
+
+cd $baseDirectory/searxng-docker/
+
+sed -i "s|# SEARXNG_HOSTNAME=<host>|SEARXNG_HOSTNAME=$hostname|g" .env
+
+if [ $setEmail ]
+then
+    sed -i "s|# LETSENCRYPT_EMAIL=<email>|LETSENCRYPT_EMAIL=$email|g" .env
+fi
+
+less .env

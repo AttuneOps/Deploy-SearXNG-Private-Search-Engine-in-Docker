@@ -1,0 +1,6 @@
+{
+    "key": "searxngsearchengineletsencryptsetemail", 
+    "name": "SearXNG Search Engine Lets Encrypt Set Email", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

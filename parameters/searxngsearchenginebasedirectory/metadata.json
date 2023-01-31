@@ -1,0 +1,6 @@
+{
+    "key": "searxngsearchenginebasedirectory", 
+    "name": "SearXNG Search Engine Base Directory", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

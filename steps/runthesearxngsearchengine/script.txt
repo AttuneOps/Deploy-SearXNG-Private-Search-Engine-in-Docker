@@ -1,0 +1,11 @@
+baseDirectory={searxngSearchEngineBaseDirectory}
+
+cd $baseDirectory/searxng-docker/
+
+docker-compose up -d
+
+docker ps
+
+echo "============================="
+echo "The SearXNG Search Engine is now running, please visit: "
+echo "'{searxngSearchEngineNode.ip}' in your web browser!"

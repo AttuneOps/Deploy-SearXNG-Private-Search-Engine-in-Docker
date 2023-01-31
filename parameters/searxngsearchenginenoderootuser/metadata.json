@@ -1,0 +1,6 @@
+{
+    "key": "searxngsearchenginenoderootuser", 
+    "name": "SearXNG Search Engine Node root User", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.LinOsCred"
+}

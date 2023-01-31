@@ -1,0 +1,7 @@
+baseDirectory={searxngSearchEngineBaseDirectory}
+
+mkdir -p "$baseDirectory" && cd "$_"
+
+git clone https://github.com/searxng/searxng-docker.git
+
+ls -ltrh searxng-docker/

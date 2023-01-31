@@ -1,0 +1,26 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "deployandsetupsearxngdocker", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "clonethesearxngdockercode"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "generatesecretkeyandupdatesettingsxml"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "bindsearxngtohostport80"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "runthesearxngsearchengine"
+        }
+    ], 
+    "name": "Deploy and Setup SearXNG Docker", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}
