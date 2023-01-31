@@ -1,7 +1,13 @@
+# parse Attune Parameters into script varaibles. Not required however, this 
+# can assist with debugging and maintaining the scripts.
 baseDirectory={searxngSearchEngineBaseDirectory}
 
+# If it doesn't exist create the base directory and change to that directory.
 mkdir -p "$baseDirectory" && cd "$_"
 
+# Clone the SearXNG Docker code from GitHub.
 git clone https://github.com/searxng/searxng-docker.git
 
+# Log the files that were deployed. Not required however, capturing logs is 
+# good practice.
 ls -ltrh searxng-docker/
