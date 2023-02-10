@@ -1,13 +1,1 @@
-# test tittle
-
-**bold test**
-
-nomral text
-
-## secondary tittle
-
-more text.
-
-Update blank lines for the markdown template.
-
-Add blank lines to the markdown templates
+This is an Attune Project to deploy and startup the SearXNG Private Search Engine in Docker. SearXNG is a free internet metasearch engine which aggregates results from more than 70 search services.
