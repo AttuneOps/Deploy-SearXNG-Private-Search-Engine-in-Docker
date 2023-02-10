@@ -9,3 +9,5 @@ nomral text
 more text.
 
 Update blank lines for the markdown template.
+
+Add blank lines to the markdown templates

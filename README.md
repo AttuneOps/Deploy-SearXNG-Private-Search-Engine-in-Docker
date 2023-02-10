@@ -12,6 +12,8 @@ more text.
 
 Update blank lines for the markdown template.
 
+Add blank lines to the markdown templates
+
 
 
 
@@ -47,13 +49,17 @@ Clone this project into your own instance of Attune.
 <img align="right" width="300" src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-clone-new-project-01.png" alt="clone a new project" />
 
 In Attune, Clone a new project.
-<br/><br/><br/><br/>
+
+<br/><br/><br/>
+
 ---
 
 <img align="right" width="300" src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-clone-new-project-02.png" alt="clone a new project" />
 
 Paste the GIT repository URL into Attune and Select Clone.
-<br/><br/><br/><br/>
+
+<br/><br/><br/>
+
 ---
 
 Now that this project is in your Attune instance you can begin creating Jobs.
@@ -64,13 +70,17 @@ Now that this project is in your Attune instance you can begin creating Jobs.
 
 Navigate to the Plan workspace and create the Values required to fill the
 Parameters for the Job.
-<br/><br/><br/><br/>
+
+<br/><br/><br/>
+
 ---
 
 <img align="right" width="300" src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-plan-new-job-02.png" alt="plan a new job" />
 
 Create a Job from a Blueprint in the Project you cloned.
-<br/><br/><br/><br/>
+
+<br/><br/><br/>
+
 ---
 
 <img align="right" width="300" src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-plan-new-job-03.png" alt="plan a new job" />
@@ -82,16 +92,25 @@ Configure the Parameters for the Job you created.
 <img align="right" width="300" src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-run-job-01.png" alt="run your job" />
 
 Run your Job.
-<br/><br/><br/><br/>
+
+<br/><br/><br/>
+
 ---
 
 **Congratulations, you’ve run a cloned project.**
 
 <img align="right" width="300" src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-get-help-01.png" alt="get help" />
 
+<br/>
+
 If you need further assistance, please explore our help.
+
 <br/><br/><br/><br/>
+
 <br/><br/><br/><br/>
+
+<br/><br/><br/><br/>
+
 
 
 
