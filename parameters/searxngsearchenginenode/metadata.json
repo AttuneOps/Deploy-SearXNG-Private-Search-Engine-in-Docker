@@ -1,0 +1,6 @@
+{
+    "key": "searxngsearchenginenode", 
+    "name": "SearXNG Search Engine Node", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.LinuxServer"
+}

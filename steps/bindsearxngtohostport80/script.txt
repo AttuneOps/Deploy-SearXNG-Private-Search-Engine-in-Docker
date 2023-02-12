@@ -1,0 +1,9 @@
+baseDirectory={searxngSearchEngineBaseDirectory}
+
+cd $baseDirectory/searxng-docker/
+
+# Configure the listening IP address and Port forward between the Docker 
+# Container and Docker Host.
+sed -i "s|127.0.0.1:8080:8080|0.0.0.0:80:8080|g" docker-compose.yaml
+
+less docker-compose.yaml

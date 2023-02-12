@@ -1,0 +1,9 @@
+baseDirectory={searxngSearchEngineBaseDirectory}
+
+cd $baseDirectory/searxng-docker/
+
+# Update the settings file with a generated secret key.
+sed -i "s|ultrasecretkey|$(openssl rand -hex 32)|g" searxng/settings.yml
+
+# log that the secret key was updated.
+less searxng/settings.yml | grep secret_key
