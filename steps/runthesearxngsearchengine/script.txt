@@ -3,7 +3,7 @@ baseDirectory={searxngSearchEngineBaseDirectory}
 cd $baseDirectory/searxng-docker/
 
 # Build the Docker Containers.
-docker-compose up -d
+docker compose up -d
 
 # Log the Docker Containers that are running.
 docker ps
