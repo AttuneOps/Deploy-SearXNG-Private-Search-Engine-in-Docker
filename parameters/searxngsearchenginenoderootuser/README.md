@@ -1,1 +1,1 @@
-root User credentials of the node.
+The `root` User credentials that the SearXNG Search Engine is being deployed with.

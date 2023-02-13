@@ -1,6 +1,15 @@
+
 # SearXNG Search Engine
 
-This is an Attune Project to deploy and startup the SearXNG Private Search Engine in Docker. SearXNG is a free internet metasearch engine which aggregates results from more than 70 search services.
+This is an Attune Project to deploy and startup the SearXNG Private Search 
+Engine in Docker. SearXNG is a free internet metasearch engine which 
+aggregates results from more than 70 search services.
+
+This project has been tested on:
+
+* Ubuntu 22.04
+    * Docker 20.10.21
+
 
 
 
@@ -124,9 +133,9 @@ This Project contains the following Blueprints.
 
 | Name | Type | Script Reference | Comment |
 | ---- | ---- | ---------------- | ------- |
-| SearXNG Search Engine Base Directory | Text | `searxngsearchenginebasedirectory` | This is the directory for the files being deployed and configured. |
+| SearXNG Search Engine Base Directory | Text | `searxngsearchenginebasedirectory` | This is the directory for the files being deployed and configured. Example: `/usr/local/`. |
 | SearXNG Search Engine Node | Linux/Unix Node | `searxngsearchenginenode` | The node address that the SearXNG Search Engine is being deployed too. |
-| SearXNG Search Engine Node root User | Linux/Unix Credential | `searxngsearchenginenoderootuser` | root User credentials of the node. |
+| SearXNG Search Engine Node root User | Linux/Unix Credential | `searxngsearchenginenoderootuser` | The `root` User credentials that the SearXNG Search Engine is being deployed with. |
 
 
 

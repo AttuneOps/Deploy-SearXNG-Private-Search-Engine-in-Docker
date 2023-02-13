@@ -1,1 +1,1 @@
-This is the directory for the files being deployed and configured.
+This is the directory for the files being deployed and configured. Example: `/usr/local/`.
