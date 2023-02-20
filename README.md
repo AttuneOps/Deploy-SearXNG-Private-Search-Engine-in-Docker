@@ -9,7 +9,7 @@ This is an Attune Project to deploy and startup the SearXNG Private Search
 Engine in Docker. SearXNG is a free internet metasearch engine which 
 aggregates results from more than 70 search services.
 
-This project has been tested on: 
+This project has been tested on:
 
 * Ubuntu 22.04
     * Docker 20.10.21
@@ -136,18 +136,18 @@ This Project contains the following Blueprints.
 concert delivers not only more ideas, but quicker development and
 troubleshooting when issues arise.**
 
-<img align="right" width="300" src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-pull-request-01.png" alt="pull request" />
-
 If you’d like to contribute and help improve these projects, please fork our
 repository, commit your changes in Attune, push you changes, and create a
 pull request.
-<br/><br/><br/><br/>
+
+<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-pull-request-01.png" alt="pull request" />
+
 ---
 
-<img align="right" width="300" src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-get-help-02.png" alt="create an issue" />
-
 Please feel free to raise any issues or questions you have.
-<br/><br/><br/><br/>
+
+<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-get-help-02.png" alt="create an issue" />
+
 
 
 Thank you.
