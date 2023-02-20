@@ -1,11 +1,15 @@
 
+[![Docs](https://img.shields.io/badge/docs-latest-brightgreen.svg)](http://doc.servertribe.com)
+[![Discord](https://img.shields.io/discord/844971127703994369)](http://discord.servertribe.com)
+[![Generic badge](https://img.shields.io/badge/download-latest-brightgreen.svg)](https://www.servertribe.com/comunity-edition/)
+
 # SearXNG Search Engine
 
 This is an Attune Project to deploy and startup the SearXNG Private Search 
 Engine in Docker. SearXNG is a free internet metasearch engine which 
 aggregates results from more than 70 search services.
 
-This project has been tested on:
+This project has been tested on: 
 
 * Ubuntu 22.04
     * Docker 20.10.21
@@ -43,74 +47,50 @@ You can learn more about Attune through
 
 Clone this project into your own instance of Attune.
 
----
-
-<img align="right" width="300" src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-clone-new-project-01.png" alt="clone a new project" />
-
-In Attune, Clone a new project.
-
-<br/><br/>
+<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-clone-new-project-01.png" alt="clone a new project" />
 
 ---
-
-<img align="right" width="300" src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-clone-new-project-02.png" alt="clone a new project" />
 
 Paste the GIT repository URL into Attune and Select Clone.
 
-<br/><br/><br/>
+<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-clone-new-project-02.png" alt="clone a new project" />
 
 ---
 
-Now that this project is in your Attune instance you can begin creating Jobs.
+**Now that this project is in your Attune instance you can begin creating
+Jobs.**
+
+Navigate to the Plan workspace and create a Job from a Blueprint in the
+Project you cloned.
+
+<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-plan-new-job-01.png" alt="plan a new job" />
 
 ---
 
-<img align="right" width="300" src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-plan-new-job-01.png" alt="plan a new job" />
+Configure the Parameters for the Job you created. Create the Values you're
+missing in the next step.
 
-Navigate to the Plan workspace and create the Values required to fill the
-Parameters for the Job.
-
-<br/><br/>
+<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-plan-new-job-02.png" alt="plan a new job" />
 
 ---
 
-<img align="right" width="300" src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-plan-new-job-02.png" alt="plan a new job" />
+Create the Values required to fill the Parameters for the Job.
 
-Create a Job from a Blueprint in the Project you cloned.
-
-<br/><br/><br/>
+<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-plan-new-job-03.png" alt="plan a new job" />
 
 ---
-
-<img align="right" width="300" src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-plan-new-job-03.png" alt="plan a new job" />
-
-Configure the Parameters for the Job you created.
-
-<br/><br/><br/><br/>
-
----
-
-<img align="right" width="300" src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-run-job-01.png" alt="run your job" />
 
 Run your Job.
 
-<br/><br/>
+<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-run-job-01.png" alt="run your job" />
 
 ---
 
 **Congratulations, you’ve run a cloned project.**
 
-<img align="right" width="300" src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-get-help-01.png" alt="get help" />
-
-<br/>
-
 If you need further assistance, please explore our help.
 
-<br/><br/><br/><br/>
-
-<br/><br/><br/><br/>
-
-<br/><br/><br/><br/>
+<img width=200 src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-get-help-01.png" alt="get help" />
 
 
 
