@@ -12,7 +12,7 @@ This is an Attune Project to deploy and startup the SearXNG Private Search
 Engine in Docker. SearXNG is a free internet metasearch engine which 
 aggregates results from more than 70 search services.
 
-This project has been tested on: 
+This project has been tested on:
 
 * Ubuntu 22.04
     * Docker 20.10.21
@@ -51,13 +51,13 @@ You can learn more about Attune through
 
 Clone this project into your own instance of Attune.
 
-<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-clone-new-project-01.png" alt="clone a new project" />
+<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-clone-new-project-01.png" alt="clone a new project"/>
 
 ---
 
 Paste the GIT repository URL into Attune and Select Clone.
 
-<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-clone-new-project-02.png" alt="clone a new project" />
+<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-clone-new-project-02.png" alt="clone a new project"/>
 
 ---
 
@@ -67,26 +67,26 @@ Jobs.**
 Navigate to the Plan workspace and create a Job from a Blueprint in the
 Project you cloned.
 
-<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-plan-new-job-11.png" alt="plan a new job" />
+<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-plan-new-job-11.png.png" alt="plan a new job"/>
 
 ---
 
 Configure the Parameters for the Job you created. Create the Values you're
 missing in the next step.
 
-<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-plan-new-job-12.png" alt="plan a new job" />
+<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-plan-new-job-12.png" alt="plan a new job"/>
 
 ---
 
 Create the Values required to fill the Parameters for the Job.
 
-<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-plan-new-job-13-1.png" alt="plan a new job" />
+<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-plan-new-job-13-1.png" alt="plan a new job"/>
 
 ---
 
 Run your Job.
 
-<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-run-job-01.png" alt="run your job" />
+<img src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-run-job-01.png" alt="run your job"/>
 
 ---
 
@@ -94,7 +94,7 @@ Run your Job.
 
 If you need further assistance, please explore our help.
 
-<img width=200 src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-get-help-01.png" alt="get help" />
+<img width=200 src="https://www.servertribe.com/wp-content/uploads/2023/02/Attune-get-help-01.png.png" alt="get help"/>
 
 
 
