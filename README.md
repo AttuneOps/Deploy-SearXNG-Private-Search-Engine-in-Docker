@@ -4,6 +4,7 @@
 
 [![Docs](https://img.shields.io/badge/docs-latest-brightgreen.svg)](http://doc.servertribe.com)
 [![Discord](https://img.shields.io/discord/844971127703994369)](http://discord.servertribe.com)
+[![Docs](https://img.shields.io/badge/videos-watch-brightgreen.svg)](https://www.youtube.com/@servertribe)
 [![Generic badge](https://img.shields.io/badge/download-latest-brightgreen.svg)](https://www.servertribe.com/community-edition/)
 
 # SearXNG Search Engine
@@ -12,7 +13,7 @@ This is an Attune Project to deploy and startup the SearXNG Private Search
 Engine in Docker. SearXNG is a free internet metasearch engine which 
 aggregates results from more than 70 search services.
 
-This project has been tested on:
+This project has been tested on: 
 
 * Ubuntu 22.04
     * Docker 20.10.21
