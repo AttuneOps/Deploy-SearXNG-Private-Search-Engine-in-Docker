@@ -6,3 +6,12 @@
     box-shadow: inset 0 -16px 16px -16px rgba(0,0,0,0.28);
     padding: 130px 0 70px 0;
 }
+
+.altsplash {
+    background: -webkit-radial-gradient(#e2e6eb, #e2e5e9);
+    background: radial-gradient(#e2e6eb, #e2e5e9);
+    color: #fff;
+    text-align: center;
+    box-shadow: inset 0 -16px 16px -16px rgba(0,0,0,0.28);
+    padding: 130px 0 70px 0;
+}
