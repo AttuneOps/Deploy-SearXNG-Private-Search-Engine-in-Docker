@@ -79,8 +79,11 @@
           <div class="container">
             <!-- Blueprint name and description -->
             <div class="row">
-              <h5>
-                Description
+              <h5 id="description">
+                <a href="#description" onclick="navigator.clipboard.writeText(this.href);">
+                  Description
+                </a>
+                <a class="hash-anchor" href="#description" aria-hidden="true" onclick="navigator.clipboard.writeText(this.href);"></a>
               </h5>
             </div>
             <div class="row">

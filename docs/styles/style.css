@@ -49,3 +49,7 @@
     transition: 0.2s;
     cursor: pointer;
 }
+
+body {
+    color: #4d5b7c;
+}
