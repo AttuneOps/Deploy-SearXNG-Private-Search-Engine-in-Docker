@@ -46,8 +46,18 @@
     -webkit-transition: 0.2s;
     transition: 0.2s;
     cursor: pointer;
+    background: #fff;
 }
 
 body {
     color: #4d5b7c;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: #1253fa;
+    text-decoration: inherit;
 }
