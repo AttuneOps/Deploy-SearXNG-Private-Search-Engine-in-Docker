@@ -68,81 +68,82 @@
           <h5>Step 2: Generate Secret Key and Update settings.xml</h5>
         </div>
         <div class="col-md-8">
-        <div class="container">
-          <!-- Blueprint name and description -->
-          <div class="row">
-            <h5>
-              Description
-            </h5>
-          </div>
-          <div class="row">
-            <p>
-              This is an Attune Project to deploy and startup the SearXNG Private Search Engine in Docker. SearXNG is a free internet metasearch engine which aggregates results from more than 70 search services.
-            </p>
-          </div>
-          <div class="row">
-            <h4>
-              Step 1: Clone the SearXNG Docker Code
-            </h4>
-          </div>
-          <div class="row">
-            <p>
-              Clone the SearXNG Docker code from GitHub.
-            </p>
-          </div>
-          <div class="row">
-            <pre><code>
-              # parse Attune Parameters into script varaibles. Not required however, this 
-              # can assist with debugging and maintaining the scripts.
-              baseDirectory={searxngSearchEngineBaseDirectory}
-              
-              # If it doesn't exist create the base directory and change to that directory.
-              mkdir -p "$baseDirectory" && cd "$_"
-              
-              # Clone the SearXNG Docker code from GitHub.
-              git clone https://github.com/searxng/searxng-docker.git
-              
-              # Log the files that were deployed. Not required however, capturing logs is 
-              # good practice.
-              ls -ltrh searxng-docker/
-            </code></pre>
-          </div>
-          <div class="row">
-            <h4>
-              Step 2: Generate Secret Key and Update settings.xml
-            </h4>
-          </div>
-          <div class="row">
-            <p>
-              Clone the SearXNG Docker code from GitHub.
-            </p>
-          </div>
-          <div class="row">
-            <pre><code>
-              baseDirectory={searxngSearchEngineBaseDirectory}
+          <div class="container">
+            <!-- Blueprint name and description -->
+            <div class="row">
+              <h5>
+                Description
+              </h5>
+            </div>
+            <div class="row">
+              <p>
+                This is an Attune Project to deploy and startup the SearXNG Private Search Engine in Docker. SearXNG is a free internet metasearch engine which aggregates results from more than 70 search services.
+              </p>
+            </div>
+            <div class="row">
+              <h4>
+                Step 1: Clone the SearXNG Docker Code
+              </h4>
+            </div>
+            <div class="row">
+              <p>
+                Clone the SearXNG Docker code from GitHub.
+              </p>
+            </div>
+            <div class="row">
+              <pre><code>
+                # parse Attune Parameters into script varaibles. Not required however, this 
+                # can assist with debugging and maintaining the scripts.
+                baseDirectory={searxngSearchEngineBaseDirectory}
+                
+                # If it doesn't exist create the base directory and change to that directory.
+                mkdir -p "$baseDirectory" && cd "$_"
+                
+                # Clone the SearXNG Docker code from GitHub.
+                git clone https://github.com/searxng/searxng-docker.git
+                
+                # Log the files that were deployed. Not required however, capturing logs is 
+                # good practice.
+                ls -ltrh searxng-docker/
+              </code></pre>
+            </div>
+            <div class="row">
+              <h4>
+                Step 2: Generate Secret Key and Update settings.xml
+              </h4>
+            </div>
+            <div class="row">
+              <p>
+                Clone the SearXNG Docker code from GitHub.
+              </p>
+            </div>
+            <div class="row">
+              <pre><code>
+                baseDirectory={searxngSearchEngineBaseDirectory}
 
-              cd $baseDirectory/searxng-docker/
-              
-              # Update the settings file with a generated secret key.
-              sed -i "s|ultrasecretkey|$(openssl rand -hex 32)|g" searxng/settings.yml
-              
-              # log that the secret key was updated.
-              less searxng/settings.yml | grep secret_key
-            </code></pre>
-          </div>
-          <div class="row">
-            <h5>
-              Complete
-            </h5>
-          </div>
-          <div class="row">
-            <p>
-              This instruction is completed.
-            </p>
+                cd $baseDirectory/searxng-docker/
+                
+                # Update the settings file with a generated secret key.
+                sed -i "s|ultrasecretkey|$(openssl rand -hex 32)|g" searxng/settings.yml
+                
+                # log that the secret key was updated.
+                less searxng/settings.yml | grep secret_key
+              </code></pre>
+            </div>
+            <div class="row">
+              <h5>
+                Complete
+              </h5>
+            </div>
+            <div class="row">
+              <p>
+                This instruction is completed.
+              </p>
+            </div>
           </div>
         </div>
         <div class="col-md-2">
-          <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+          <div class="card border-light mb-3" style="max-width: 18rem;">
             <div class="card-body">
               <h5 class="card-title">Automate this Instruction for free</h5>
               <p class="card-text">Click below to register for the Community Edition of Attune.</p>
