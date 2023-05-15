@@ -68,7 +68,7 @@
           <h6 class="text-muted">Step 2: Generate Secret Key and Update settings.xml</h6>
         </div>
 
-        <div class="col-md-8 m-3">
+        <div class="col-md-6 m-3">
           <div class="container">
             <!-- Blueprint name and description -->
             <div class="row">
@@ -81,7 +81,7 @@
                 This is an Attune Project to deploy and startup the SearXNG Private Search Engine in Docker. SearXNG is a free internet metasearch engine which aggregates results from more than 70 search services.
               </p>
             </div>
-            <div class="row">
+            <div class="row mt-3">
               <h4>
                 Step 1: Clone the SearXNG Docker Code
               </h4>
@@ -108,7 +108,7 @@ git clone https://github.com/searxng/searxng-docker.git
 ls -ltrh searxng-docker/
               </code></pre>
             </div>
-            <div class="row">
+            <div class="row mt-3">
               <h4>
                 Step 2: Generate Secret Key and Update settings.xml
               </h4>
@@ -131,7 +131,7 @@ sed -i "s|ultrasecretkey|$(openssl rand -hex 32)|g" searxng/settings.yml
 less searxng/settings.yml | grep secret_key
               </code></pre>
             </div>
-            <div class="row">
+            <div class="row mt-3">
               <h5>
                 Complete
               </h5>
@@ -151,25 +151,6 @@ less searxng/settings.yml | grep secret_key
               <p class="card-text">Click below to register for the Community Edition of Attune.</p>
               <a href="https://www.servertribe.com/download-attune-registration/" class="btn btn-primary">Register NOW!</a>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Attune Information -->
-    <div class="altsplash">
-      <div class="container">
-        <!-- Project name and description -->
-        <div class="row">
-          <div class="tech-card">
-            <h2>Attune Automation</h2>
-            <p>Attune automates and orchestrates processes to streamline deployments, scaling, migrations, and management of your systems. The Attune platform is building a community of sharable automated and orchestrated processes.</p>
-            <p>You can leverage the publicly available orchestrated blueprints to increase your productivity, and accelerate the delivery of your projects. You can open-source your own work and improve existing community orchestrated projects.</p>
-            <h2>Get Started with Attune</h2>
-            <p>The Attune Community Edition can be downloaded for free from our ServerTribe website. You can learn more about Attune through ServerTribe's YouTube Channel.</p>
-            <p class="lead">
-              <a class="btn btn-primary btn-lg justify-content-md-center" href="https://www.servertribe.com/download-attune-registration/" role="button">Download NOW!</a>
-            </p>
           </div>
         </div>
       </div>
