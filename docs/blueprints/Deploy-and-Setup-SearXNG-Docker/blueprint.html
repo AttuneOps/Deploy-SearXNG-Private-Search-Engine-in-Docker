@@ -62,12 +62,13 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-md-2">
-          <h4>Contents</h4>
-          <h5>Step 1: Clone the SearXNG Docker Code</h5>
-          <h5>Step 2: Generate Secret Key and Update settings.xml</h5>
+        <div class="col-md-2 m-3 sticky-top">
+          <h6>Contents</h6>
+          <h6 class="text-muted">Step 1: Clone the SearXNG Docker Code</h6>
+          <h6 class="text-muted">Step 2: Generate Secret Key and Update settings.xml</h6>
         </div>
-        <div class="col-md-8">
+
+        <div class="col-md-8 m-3">
           <div class="container">
             <!-- Blueprint name and description -->
             <div class="row">
@@ -92,19 +93,19 @@
             </div>
             <div class="row">
               <pre><code>
-                # parse Attune Parameters into script varaibles. Not required however, this 
-                # can assist with debugging and maintaining the scripts.
-                baseDirectory={searxngSearchEngineBaseDirectory}
-                
-                # If it doesn't exist create the base directory and change to that directory.
-                mkdir -p "$baseDirectory" && cd "$_"
-                
-                # Clone the SearXNG Docker code from GitHub.
-                git clone https://github.com/searxng/searxng-docker.git
-                
-                # Log the files that were deployed. Not required however, capturing logs is 
-                # good practice.
-                ls -ltrh searxng-docker/
+# parse Attune Parameters into script varaibles. Not required however, this 
+# can assist with debugging and maintaining the scripts.
+baseDirectory={searxngSearchEngineBaseDirectory}
+
+# If it doesn't exist create the base directory and change to that directory.
+mkdir -p "$baseDirectory" && cd "$_"
+
+# Clone the SearXNG Docker code from GitHub.
+git clone https://github.com/searxng/searxng-docker.git
+
+# Log the files that were deployed. Not required however, capturing logs is 
+# good practice.
+ls -ltrh searxng-docker/
               </code></pre>
             </div>
             <div class="row">
@@ -119,15 +120,15 @@
             </div>
             <div class="row">
               <pre><code>
-                baseDirectory={searxngSearchEngineBaseDirectory}
+baseDirectory={searxngSearchEngineBaseDirectory}
 
-                cd $baseDirectory/searxng-docker/
-                
-                # Update the settings file with a generated secret key.
-                sed -i "s|ultrasecretkey|$(openssl rand -hex 32)|g" searxng/settings.yml
-                
-                # log that the secret key was updated.
-                less searxng/settings.yml | grep secret_key
+cd $baseDirectory/searxng-docker/
+
+# Update the settings file with a generated secret key.
+sed -i "s|ultrasecretkey|$(openssl rand -hex 32)|g" searxng/settings.yml
+
+# log that the secret key was updated.
+less searxng/settings.yml | grep secret_key
               </code></pre>
             </div>
             <div class="row">
@@ -142,7 +143,8 @@
             </div>
           </div>
         </div>
-        <div class="col-md-2">
+
+        <div class="col-md-2 m-3 sticky-top">
           <div class="card border-light mb-3" style="max-width: 18rem;">
             <div class="card-body">
               <h5 class="card-title">Automate this Instruction for free</h5>
