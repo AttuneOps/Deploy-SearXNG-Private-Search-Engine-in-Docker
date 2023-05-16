@@ -80,6 +80,9 @@
 }
 
 .attune-ad h5 {
+    background-image: "https://www.servertribe.com/wp-content/uploads/2022/05/home_row_background_1-1.jpg";
+    background-repeat: no-repeat;
+    background-size: cover;
     color: rgb(0, 12, 43);
     font-size: 16px;
     font-weight: 700;
