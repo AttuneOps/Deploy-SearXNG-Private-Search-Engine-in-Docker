@@ -28,8 +28,8 @@
     color: #fff;
 }
 
-.splash h5 {
-    padding-top: 20px;
+.splash h6 {
+    padding-top: 40px;
     -webkit-backface-visibility: visible !important;
     backface-visibility: visible !important;
     -webkit-animation-name: fadeInUp;
