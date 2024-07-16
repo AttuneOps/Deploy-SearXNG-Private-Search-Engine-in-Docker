@@ -1,6 +1,8 @@
 {
+    "actionOnStepFail": null, 
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "0352b56a-f1c4-414f-945d-1c709bf79c35", 
     "isBlueprint": true, 
     "key": "deployandsetupsearxngdocker", 
     "links": [

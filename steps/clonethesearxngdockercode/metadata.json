@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "89d75f77-6f12-4f7b-a950-3210cb4cedcd", 
     "interpreter": 1, 
     "key": "clonethesearxngdockercode", 
     "name": "Clone the SearXNG Docker Code", 

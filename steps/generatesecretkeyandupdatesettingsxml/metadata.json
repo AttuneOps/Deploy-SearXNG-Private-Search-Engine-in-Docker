@@ -1,5 +1,7 @@
 {
+    "actionOnStepFail": null, 
     "enabled": true, 
+    "externalUuid4": "67ca1065-0396-4973-b051-79563250c7ea", 
     "interpreter": 1, 
     "key": "generatesecretkeyandupdatesettingsxml", 
     "name": "Generate Secret Key and Update settings.xml", 
